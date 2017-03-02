@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" android:layout_height="match_parent"
+        android:stretchColumns="1" android:shrinkColumns="0">
+        <View android:layout_width="fill_parent" android:layout_height="10dp" />
+        <TableRow>
+            <TextView
+                style="@style/formSubHeader"
+                android:layout_span="2"
+                android:text="@string/group_auto_info" />
+        </TableRow>
+        <View android:layout_width="fill_parent" android:layout_height="5dp" />
+        <TableRow>
+            <TextView
+                android:text="@string/auto_info_number"
+                android:id="@+id/labelAutoInfo"
+                android:labelFor="@+id/autoInfo"
+                style="@style/formFieldLabel" />
+            <EditText
+                android:id="@+id/autoInfo"
+                android:inputType="text"
+                android:layout_column="1"
+                style="@style/formFieldBlocked" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/auto_info_date"
+                android:labelFor="@+id/autoDat"
+                android:id="@+id/labelAutoDat"
+                style="@style/formFieldLabel" />
+            <EditText
+                android:id="@+id/autoDat"
+                android:inputType="text"
+                android:layout_column="1"
+                style="@style/formFieldBlocked" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/auto_info_agent"
+                android:labelFor="@+id/autoAgent"
+                android:id="@+id/labelAutoAgent"
+                style="@style/formFieldLabel" />
+            <EditText
+                android:id="@+id/autoAgent"
+                android:inputType="text"
+                android:layout_column="1"
+                style="@style/formFieldBlocked" />
+        </TableRow>
+
+        <View android:layout_width="fill_parent" android:layout_height="20dp" />
+        <TableRow>
+            <TextView
+                style="@style/formSubHeader"
+                android:layout_span="2"
+                android:text="@string/group_auto_local" />
+        </TableRow>
+        <View android:layout_width="fill_parent" android:layout_height="5dp" />
+        <TableRow>
+            <TextView
+                android:text="@string/auto_local_zone"
+                android:labelFor="@+id/autoZone"
+                android:id="@+id/labelAutoZone"
+                style="@style/formFieldLabel" />
+            <Spinner
+                android:id="@+id/autoZone"
+                android:layout_column="1"
+                android:spinnerMode="dialog" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/auto_local_address"
+                android:labelFor="@+id/autoAddress"
+                android:id="@+id/labelAutoAddress"
+                style="@style/formFieldLabel" />
+            <Spinner
+                android:id="@+id/autoAddress"
+                android:layout_column="1"
+                android:spinnerMode="dialog" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/auto_info_agent"
+                android:labelFor="@+id/autoPolice"
+                android:id="@+id/labelAutoPolice"
+                style="@style/formFieldLabel" />
+            <EditText
+                android:id="@+id/autoPolice"
+                android:inputType="text"
+                android:layout_column="1"
+                style="@style/formFieldNormal" />
+        </TableRow>
+
+        <View android:layout_width="fill_parent" android:layout_height="20dp" />
+        <TableRow>
+            <TextView
+                style="@style/formSubHeader"
+                android:layout_span="2"
+                android:text="@string/group_auto_infraction" />
+        </TableRow>
+        <View android:layout_width="fill_parent" android:layout_height="5dp" />
+        <TableRow>
+            <Spinner
+                android:id="@+id/autoInfraction"
+                android:layout_span="2"
+                android:spinnerMode="dialog" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/labelInfoInfraction"
+                android:layout_span="2"
+                style="@style/formFieldLabel"
+                android:layout_height="30dp" />
+        </TableRow>
+
+        <View android:layout_width="fill_parent" android:layout_height="20dp" />
+        <TableRow>
+            <TextView
+                style="@style/formSubHeader"
+                android:layout_span="2"
+                android:text="@string/group_auto_vehicle" />
+        </TableRow>
+        <View android:layout_width="fill_parent" android:layout_height="5dp" />
+        <TableRow>
+            <TextView
+                android:text="@string/auto_vehicle_country"
+                android:labelFor="@+id/autoVCountry"
+                android:id="@+id/labelAutoVCountry"
+                style="@style/formFieldLabel" />
+            <Spinner
+                android:id="@+id/autoVCountry"
+                android:layout_column="1"
+                android:spinnerMode="dropdown" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/auto_vehicle_code"
+                android:labelFor="@+id/autoVCode"
+                android:id="@+id/labelAutoVCode"
+                style="@style/formFieldLabel" />
+            <EditText
+                android:id="@+id/autoVCode"
+                android:inputType="text"
+                android:layout_column="1"
+                style="@style/formFieldNormal" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/auto_vehicle_category"
+                android:labelFor="@+id/autoVCategory"
+                android:id="@+id/labelAutoVCategory"
+                style="@style/formFieldLabel" />
+            <Spinner
+                android:id="@+id/autoVCategory"
+                android:layout_column="1"
+                android:spinnerMode="dropdown" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/auto_vehicle_type"
+                android:labelFor="@+id/autoVType"
+                android:id="@+id/labelAutoVType"
+                style="@style/formFieldLabel" />
+            <Spinner
+                android:id="@+id/autoVType"
+                android:layout_column="1"
+                android:spinnerMode="dropdown" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/auto_vehicle_brand"
+                android:labelFor="@+id/autoVBrand"
+                android:id="@+id/labelAutoVBrand"
+                style="@style/formFieldLabel" />
+            <Spinner
+                android:id="@+id/autoVBrand"
+                android:layout_column="1"
+                android:spinnerMode="dialog" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="@string/auto_vehicle_color"
+                android:labelFor="@+id/autoVColor"
+                android:id="@+id/labelAutoVColor"
+                style="@style/formFieldLabel" />
+            <Spinner
+                android:id="@+id/autoVColor"
+                android:layout_column="1"
+                android:spinnerMode="dialog" />
+        </TableRow>
+
+        <View android:layout_width="fill_parent" android:layout_height="20dp" />
+        <TableRow>
+            <TextView
+                style="@style/formSubHeader"
+                android:layout_span="2"
+                android:text="@string/group_auto_record_type" />
+        </TableRow>
+        <View android:layout_width="fill_parent" android:layout_height="5dp" />
+        <TableRow>
+            <ListView
+                android:id="@+id/autoRecordTypes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="singleChoice"
+                android:layout_span="2"/>
+        </TableRow>
+
+        <View android:layout_width="fill_parent" android:layout_height="10dp" />
+        <TableRow>
+            <Button
+                android:id="@+id/userInfo_saveButton"
+                android:text="@string/btn_save"
+                android:layout_span="2" />
+        </TableRow>
+    </TableLayout>
+</ScrollView><!-- From: file:/D:/Tese/STC_Android/app/src/main/res/layout/activity_new_auto.xml -->

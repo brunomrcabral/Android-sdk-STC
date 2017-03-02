@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/black" android:state_pressed="true"/>
+    <!-- pressed -->
+    <item android:drawable="@color/grey" android:state_focused="true"/>
+    <!-- focused -->
+    <item android:drawable="@color/blue"/>
+    <!-- default -->
+</selector><!-- From: file:/D:/Tese/STC_Android/app/src/main/res/drawable/selector_navigator_drawer.xml -->

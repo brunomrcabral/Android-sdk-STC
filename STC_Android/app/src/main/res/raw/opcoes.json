@@ -1,0 +1,10 @@
+        [{
+            "nome": "Configurações", 
+            "descricao":"Configurações da Aplicação."
+        },{
+            "nome": "Impressora", 
+            "descricao":"Configurar Ligação à Impressora."
+        },{
+            "nome": "Sobre", 
+            "descricao":"Informações sobre a Aplicação."
+        }]

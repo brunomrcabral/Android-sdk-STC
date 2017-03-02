@@ -1,0 +1,361 @@
+        [{
+            "id":"0",
+            "nome": "Endereço Web Service",
+            "descricao":"Indicar o endereço de ligação do Web Service",
+            "valor": "http://stcws.demos.ano.pt/stcws/infobase.asmx",
+            "tipo":"Ligação Web Service",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "1"
+        },{
+            "id":"1",
+            "nome": "Número PDA",
+            "descricao":"Indicar o número do Terminal.",
+            "valor": "1",
+            "tipo":"Ligação Web Service",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "1"
+        },{
+            "id":"2",
+            "nome": "Código de Acesso",
+            "descricao":"Código de Acesso ao WebService",
+            "valor": "1",
+            "tipo":"Ligação Web Service",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "1"
+        },{
+            "id":"3",
+            "nome": "Ligação Web Service TimeOut",
+            "descricao":"Indicar o tempo máximo de espera sem resposta do serviço.",
+            "valor": "60000",
+            "tipo":"Ligação Web Service",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "1"
+        },{
+            "id":"4",
+            "nome": "Nº Automático de Processo",
+            "descricao":"Indicar se o Nº de Processo deve ser Automático.",
+            "valor": "N",
+            "tipo":"Processos",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "0"
+        },{
+            "id":"5",
+            "nome": "Último Nº de Processo",
+            "descricao":"Indica o Último Nº de um Processo registado.",
+            "valor": "",
+            "tipo":"Processos",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "1"
+        },{
+            "id":"6",
+            "nome": "Nº Automático de Guia",
+            "descricao":"Indicar se o Nº de Guia deve ser Automático.",
+            "valor": "",
+            "tipo":"Guia",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "0"
+        },{
+            "id":"7",
+            "nome": "Último Nº de Guia",
+            "descricao":"Indica o Último Nº de uma Guia registada.",
+            "valor": "",
+            "tipo":"Guia",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "1"
+        },{
+            "id":"8",
+            "nome": "País Preferencial",
+            "descricao":"Indica o país de preferência.",
+            "valor": "P",
+            "tipo":"País",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "2"
+        },{
+            "id":"9",
+            "nome": "Último Nº de A.I",
+            "descricao":"Indica o Último Nº de uma A.I registada.",
+            "valor": "0",
+            "tipo":"A.I",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "1"
+        },{
+            "id":"10",
+            "nome": "Local do Logotipo",
+            "descricao":"Indique o caminho até à imagem utilizada como logotipo.",
+            "valor": "/ano/images/woosim.bmp",
+            "tipo":"Logotipo",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "1"
+        },{
+            "id":"11",
+            "nome": "Posição Eixo X",
+            "descricao":"Indique a posição do Logotipo Horizontalmente.",
+            "valor": "",
+            "tipo":"Logotipo",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "1"
+        },{
+            "id":"12",
+            "nome": "Posição Eixo Y",
+            "descricao":"Indique a posição do Logotipo Verticalmente.",
+            "valor": "",
+            "tipo":"Logotipo",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "1"
+        },{
+            "id":"13",
+            "nome": "Tamanho em Altura",
+            "descricao":"Indique o tamanho da Imagem em Altura.",
+            "valor": "",
+            "tipo":"Logotipo",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "1"
+        },{
+            "id":"14",
+            "nome": "Tamanho em Largura",
+            "descricao":"Indique o tamanho da Imagem em Largura.",
+            "valor": "",
+            "tipo":"Logotipo",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "1"
+        },{
+            "id":"15",
+            "nome": "Activar Câmara",
+            "descricao":"Indique se pretende activar a câmara.",
+            "valor": "N",
+            "tipo":"Fotos",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "0"
+        },{
+            "id":"16",
+            "nome": "Pasta Temporária",
+            "descricao":"Indique o caminho para a pasta Utilizada para dados Temporários.",
+            "valor": "",
+            "tipo":"Fotos",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "1"
+        },{
+            "id":"17",
+            "nome": "Pasta Final",
+            "descricao":"Indique o caminho para a pasta Utilizada para dados Finais.",
+            "valor": "",
+            "tipo":"Fotos",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "1"
+        },{
+            "id":"18",
+            "nome": "Envio de Fotos",
+            "descricao":"Indique quando pretende Enviar as Fotografias.",
+            "valor": "1",
+            "tipo":"Fotos",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "2"
+        },{
+            "id":"21",
+            "nome": "Tempo de Verificação",
+            "descricao":"Indique o tempo de Verificação pretendido para as Fotos.",
+            "valor": "60000",
+            "tipo":"Fotos",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "1"
+        },{
+            "id":"22",
+            "nome": "Password",
+            "descricao":"Modifique a Password de Acesso às Configurações.",
+            "valor": "0000",
+            "tipo":"Definições",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "1"
+        },{
+            "id":"23",
+            "nome": "Nome da Moeda",
+            "descricao":"Indique o nome pelo qual quer dar a conhecer o tipo de moeda.",
+            "valor": "Euro",
+            "tipo":"Moeda",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "1"
+        },{
+            "id":"24",
+            "nome": "Simbolo da Moeda",
+            "descricao":"Indique o simbolo pelo qual quer dar a conhecer o tipo de moeda.",
+            "valor": "\u20ac",
+            "tipo":"Moeda",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "1"
+        },{
+            "id":"25",
+            "nome": "Ligação Automática",
+            "descricao":"Indique se pretende ativar a ligação directa.",
+            "valor": "N",
+            "tipo":"Ordens de Serviço",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "0"
+        },{
+            "id":"26",
+            "nome": "Ativar serviço SMS",
+            "descricao":"Indique se pretende ativar o serviço SMS.",
+            "valor": "N",
+            "tipo":"Ordens de Serviço",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "0"
+        },{
+            "id":"27",
+            "nome": "Ativar Web Service",
+            "descricao":"Indique se pretende ativar o Web Service.",
+            "valor": "N",
+            "tipo":"Ordens de Serviço",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "0"
+        },{
+            "id":"28",
+            "nome": "Endereço Web Service",
+            "descricao":"Indique o endereço que pretende usar para comunicar com o Web Service.",
+            "valor": "",
+            "tipo":"Ordens de Serviço",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "1"
+        },{
+            "id":"29",
+            "nome": "Tempo de Verificação",
+            "descricao":"Indique o tempo pelo qual deseja esperar até reseber uma resposta.",
+            "valor": "",
+            "tipo":"Ordens de Serviço",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "1"
+        },{
+            "id":"30",
+            "nome": "Confirmar antes de Ligar",
+            "descricao":"Indique se pretende confirmar antes de efectuar uma ligação.",
+            "valor": "N",
+            "tipo":"Ordens de Serviço",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "0"
+        },{
+            "id":"31",
+            "nome": "Activar L.P",
+            "descricao":"Indique se pretende activar o serviço L.P.",
+            "valor": "N",
+            "tipo":"L.P",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "0"
+        },{
+            "id":"32",
+            "nome": "Pedir Confirmação",
+            "descricao":"Indique se pretende validar antes de confirmar.",
+            "valor": "N",
+            "tipo":"L.P",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "0"
+        },{
+            "id":"33",
+            "nome": "Advertência Primeiro",
+            "descricao":"",
+            "valor": "N",
+            "tipo":"L.P",
+            "editavel": "S",
+            "visivel": "N",
+            "tipo_valor": "0"
+        },{
+            "id":"34",
+            "nome": "Endereço Impressora",
+            "descricao":"Endereço da impressora emparelhada",
+            "valor": "",
+            "tipo":"Definições",
+            "editavel": "N",
+            "visivel": "S",
+            "tipo_valor": "1"
+        },{
+            "id":"35",
+            "nome": "ID Foto",
+            "descricao":"Último ID presente na Tabela Fotos",
+            "valor": "0",
+            "tipo":"Fotos",
+            "editavel": "N",
+            "visivel": "S",
+            "tipo_valor": "1"
+        },{
+            "id":"36",
+            "nome": "Qualidade da Foto",
+            "descricao":"Qualidade da Fotografia",
+            "valor": "40",
+            "tipo":"Fotos",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "2"
+        },{
+            "id":"37",
+            "nome": "Altura da Imagem",
+            "descricao":"Altura Máxima da Fotografia",
+            "valor": "900",
+            "tipo":"Fotos",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "1"
+        },{
+            "id":"38",
+            "nome": "Comprimento da Imagem",
+            "descricao":"Comprimento Máximo da Fotografia",
+            "valor": "900",
+            "tipo":"Fotos",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "1"
+        },{
+            "id":"39",
+            "nome": "Modelo da Impressora",
+            "descricao":"Modelo da impressora emparelhada",
+            "valor": "1",
+            "tipo":"Definições",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "2"
+        },{
+            "id":"40",
+            "nome": "Caminho Fotos",
+            "descricao": "Caminho para armazenar as fotos retiradas com a aplicação",
+            "valor": "ano/fotos/",
+            "tipo":"Fotos",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "1"
+        },{
+            "id":"41",
+            "nome": "Consultas On-Line",
+            "descricao": "Activar consultas utilizando uma ligação com a internet.",
+            "valor": "S",
+            "tipo":"Definições",
+            "editavel": "S",
+            "visivel": "S",
+            "tipo_valor": "0"
+        }]

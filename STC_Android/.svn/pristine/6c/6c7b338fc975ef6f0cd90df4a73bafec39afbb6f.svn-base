@@ -1,0 +1,20 @@
+        [{
+            "id":"0",
+            "nome": "Nova Contra-Ordenação",
+            "tipo": "0",
+            "imagem": "ic_menu_anchor",
+            "view":"panel_contraordenacoes"
+        },{
+            "id":"1",
+            "nome": "Pesquisas Locais",
+            "tipo": "0",
+            "imagem":"ic_menu_barcode",
+            "view":"panel_pesquisa_contraordenacoes"
+        },
+        {
+            "id":"2",
+            "nome": "Pesquisas Online",
+            "tipo": "0",
+            "imagem":"ic_pesquisa_online",
+            "view":"panel_pesquisas_online"
+        }]

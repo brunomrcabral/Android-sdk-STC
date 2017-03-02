@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/printer"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="@string/nav_item_in_list"
+    android:textColor="#000"
+    android:gravity="center_vertical" /><!-- From: file:/D:/Tese/STC_Android/app/src/main/res/layout/printer_list_items.xml -->

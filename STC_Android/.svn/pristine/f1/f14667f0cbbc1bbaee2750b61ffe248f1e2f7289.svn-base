@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">STC</string>
+    <!-- NavDrawer -->
+    <string name="nav_item_in_list">Item</string>
+    <!-- Login -->
+    <string name="login_username">Utilizador</string>
+    <string name="login_password">Senha</string>
+    <string name="login_btn_confirm">Entrar</string>
+    <!-- Configuracoes -->
+    <string name="title_configurations">Configurações</string>
+    <string name="more_options">Mais…</string>
+    <!-- Paises -->
+    <string-array name="countrys_entrys">
+        <item>Portugal</item>
+    </string-array>
+    <string-array name="countrys_values">
+        <item>P</item>
+    </string-array>
+    <!-- Momentos para envio de fotos -->
+    <string-array name="photos_sending_entries">
+        <item>No envio dos dados</item>
+        <item>No momento de captura</item>
+        <item>No fecho de turno</item>
+    </string-array>
+    <string-array name="photos_sending_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!-- Qualidade das fotos -->
+    <string-array name="photos_quality_entries">
+        <item>Baixa</item>
+        <item>Normal</item>
+        <item>Alta</item>
+        <item>Máxima</item>
+    </string-array>
+    <string-array name="photos_quality_values">
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+        <item>95</item>
+    </string-array>
+    <!-- Impressora Emparelhada -->
+    <string-array name="printer_entries">
+        <item>PORTI-S30/40</item>
+        <item>WSP-R241</item>
+    </string-array>
+    <string-array name="printer_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- Password Dialog -->
+    <string name="dialog_passwd_title">Senha</string>
+    <string name="dialog_passwd_msg">Introduza a senha de acesso às configurações:</string>
+    <string name="btn_ok">Confirmar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <!-- Mensagens de Erro -->
+    <string name="error_invalid_passwd">Senha errada!</string>
+    <string name="error_empty_passwd">Introduza uma senha de administração válida</string>
+    <string name="error_empty_service_address_parameter">Endereço do serviço não se encontra definido</string>
+    <string name="error_empty_pda_number_parameter">Número do terminal não se encontra definido</string>
+    <string name="error_empty_pda_code_parameter">Código de acesso do terminal ao serviço não se encontra definido</string>
+    <string name="error_connecting_webservice">Não foi possível comunicar com o webservice</string>
+    <string name="error_validate_pda">O dispositivo móvel não passou na validação</string>
+    <string name="error_validate_control_table">Ocorreu um erro na pesquisa de dados na base de dados</string>
+    <string name="error_create_sql_table">Ocorreu um erro na criação de uma tabela na base de dados</string>
+    <string name="error_internet_connection">Não tem uma ligação válida à Internet</string>
+    <string name="error_general_operation">Ocorreu um erro ao efetuar a sincronização dos dados</string>
+    <string name="error_delete_sql_table">Ocorreu um erro na eliminação de uma tabela na base de dados</string>
+    <string name="error_insert_in_sql_table">Ocorreu um erro ao inserir registos na base de dados</string>
+    <string name="error_processing_download_info">Ocorreu um erro ao processar os dados recebidos</string>
+    <string name="error_login_sync_needed">É necessário efetuar a sincronização dos dados</string>
+    <string name="error_login_app_need_update">A versão da aplicação está desatualizada. Atualize para uma mais recente</string>
+    <string name="error_login_no_credentials">Por favor, insira as suas credenciais</string>
+    <string name="error_login_user_not_exist">O utilizador não existe</string>
+    <string name="error_login_no_permission_to_device">Não tem permissões para utilizar este terminal</string>
+    <!-- Dialogs -->
+    <string name="title_error_sync">Falha na sincronização</string>
+    <string name="title_error_login">Falha na autenticação</string>
+    <!-- Sync Progress Dialog -->
+    <string name="title_sync_dialog">Sincronização</string>
+    <string name="initial_message_sync_dialog">A sincronizar dados…</string>
+    <string name="message_validating_connection">A verificar conexão à internet…</string>
+    <string name="message_validating_pda">A validar o terminal…</string>
+    <string name="message_validating_sync_dates">A verificar os dados da aplicação…</string>
+    <string name="message_downloading_information">A descarregar os dados…</string>
+    <string name="message_download_successful">Os dados foram descarregados com sucesso</string>
+    <string name="message_information_updated">A aplicação está atualizada</string>
+    <!-- Menu Agente -->
+    <string name="title_agent_menu_activity">Agente</string>
+    <!-- Dialog Turnos -->
+    <string name="dialog_turnos_title">Novo Turno</string>
+    <string name="dialog_turnos_message">Deseja abrir um novo turno?</string>
+    <string name="dialog_turnos_positive">Sim</string>
+    <string name="dialog_turnos_negative">Não</string>
+    <!-- Novo Auto -->
+    <string name="title_new_auto_activity">Contra-Ordenação</string>
+    <string name="group_auto_info">Dados do Registo</string>
+    <string name="auto_info_number">Número</string>
+    <string name="auto_info_date">Data</string>
+    <string name="auto_info_agent">Agente</string>
+    <string name="group_auto_local">Localização</string>
+    <string name="auto_local_zone">Zona</string>
+    <string name="auto_local_address">Rua</string>
+    <string name="auto_local_police">Nº Polícia</string>
+    <string name="group_auto_infraction">Infração</string>
+    <string name="group_auto_vehicle">Veículo</string>
+    <string name="auto_vehicle_country">País</string>
+    <string name="auto_vehicle_code">Matrícula</string>
+    <string name="auto_vehicle_category">Categoria</string>
+    <string name="auto_vehicle_type">Tipo</string>
+    <string name="auto_vehicle_brand">Marca</string>
+    <string name="auto_vehicle_color">Cor</string>
+    <string name="group_auto_record_type">Tipo de Registo</string>
+    <string name="auto_record_type_1">Denúncia</string>
+    <string name="auto_record_type_2">Advertência</string>
+    <string name="auto_record_type_3">Aviso de Pagamento</string>
+    <string name="btn_save">Guardar</string>
+    <!-- Impressoras -->
+    <string name="title_printers_activity">Impressoras</string>
+
+    <!-- Menu lateral(Navigation Drawer) -->
+    <string-array name="nav_options_items">
+        <item>Sincronização</item>
+        <item>Turnos</item>
+        <item>Configurações</item>
+        <item>Impressora</item>
+        <item>Sobre</item>
+    </string-array>
+    <array name="nav_options_icons">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+
+    <!-- Opções do menu do Agente -->
+    <string-array name="agent_menu_options_items">
+        <item>Nova Contra-Ordenação</item>
+        <item>Pesquisas Locais</item>
+        <item>Pesquisas Online</item>
+    </string-array>
+    <array name="agent_menu_options_icons">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+</resources>

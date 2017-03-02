@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hugo.stc_android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hugo.stc_android.ViewController.Activities.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hugo.stc_android.ViewController.Activities.ConfiguracoesActivity"
+            android:icon="@drawable/ic_arrow_back_white_24dp"
+            android:label="@string/title_configurations" />
+        <activity
+            android:name="com.example.hugo.stc_android.ViewController.Activities.AgentMenuActivity"
+            android:label="@string/title_agent_menu_activity" >
+        </activity>
+        <activity
+            android:name="com.example.hugo.stc_android.ViewController.Activities.NewAutoActivity"
+            android:label="@string/title_new_auto_activity" >
+        </activity>
+        <activity
+            android:name="com.example.hugo.stc_android.ViewController.Activities.PrintersActivity"
+            android:label="@string/title_printers_activity" >
+        </activity>
+    </application>
+
+</manifest>
